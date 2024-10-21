@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_dynamic_primary90"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Architecture Name -->
+    <TextView
+        android:id="@+id/ArchitectureName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Architecture"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:paddingBottom="10dp"/>
+
+    <!-- Architect -->
+    <TextView
+        android:id="@+id/ArchitectureArchitect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Architect"
+        android:textSize="18sp"
+        android:paddingBottom="15dp"/>
+
+    <!-- Architecture Location -->
+    <TextView
+        android:id="@+id/ArchitectureLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:textSize="18sp"
+        android:paddingBottom="15dp"/>
+
+    <!-- Architecture Year Completed -->
+    <TextView
+        android:id="@+id/ArchitectureYearCompleted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Year Completed"
+        android:textSize="18sp"
+        android:paddingBottom="8dp"/>
+
+    <!-- Architecture Style -->
+    <TextView
+        android:id="@+id/ArchitectureStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Style"
+        android:textSize="18sp"
+        android:paddingBottom="8dp"/>
+
+    <!-- Architecture Height -->
+    <TextView
+        android:id="@+id/ArchitectureHeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:text="Height"
+        android:textSize="18sp" />
+
+    <!-- Description -->
+    <TextView
+        android:id="@+id/ArchitectureDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="18dp"
+        android:text="Description"
+        android:textSize="18sp" />
+
+    <!-- Back Button -->
+    <Button
+        android:id="@+id/btnBackToDashboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_gravity="center_horizontal"
+        android:onClick="goBackToDashboard"/>
+
+</LinearLayout>
